@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/population_demo/static/css/main.102ddbf7.chunk.css",
+    "main.js": "/population_demo/static/js/main.058ade94.chunk.js",
+    "main.js.map": "/population_demo/static/js/main.058ade94.chunk.js.map",
+    "runtime-main.js": "/population_demo/static/js/runtime-main.ff49f8c1.js",
+    "runtime-main.js.map": "/population_demo/static/js/runtime-main.ff49f8c1.js.map",
+    "static/css/2.40f59789.chunk.css": "/population_demo/static/css/2.40f59789.chunk.css",
+    "static/js/2.9784c909.chunk.js": "/population_demo/static/js/2.9784c909.chunk.js",
+    "static/js/2.9784c909.chunk.js.map": "/population_demo/static/js/2.9784c909.chunk.js.map",
+    "index.html": "/population_demo/index.html",
+    "static/css/2.40f59789.chunk.css.map": "/population_demo/static/css/2.40f59789.chunk.css.map",
+    "static/css/main.102ddbf7.chunk.css.map": "/population_demo/static/css/main.102ddbf7.chunk.css.map",
+    "static/js/2.9784c909.chunk.js.LICENSE.txt": "/population_demo/static/js/2.9784c909.chunk.js.LICENSE.txt",
+    "static/media/taipei-city-logo.bae7fc0e.png": "/population_demo/static/media/taipei-city-logo.bae7fc0e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff49f8c1.js",
+    "static/css/2.40f59789.chunk.css",
+    "static/js/2.9784c909.chunk.js",
+    "static/css/main.102ddbf7.chunk.css",
+    "static/js/main.058ade94.chunk.js"
+  ]
+}

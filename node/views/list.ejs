@@ -1,0 +1,20 @@
+<%- include('parts/html-head') %>
+<div class="container">
+
+
+  <tbody>
+    <% for(let i of sales){%>
+    <tr>
+      <td><%= i.name %></td>
+      <td><%= i.age %></td>
+      <td><%= i.id_ordinary_total%></td>
+    </tr>
+    <% } %>
+  </tbody>
+</div>
+
+
+
+<%- include('parts/scripts') %>
+<script></script>
+<%- include('parts/html-foot') %>

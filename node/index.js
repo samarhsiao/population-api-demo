@@ -5,6 +5,7 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 const server = http.createServer(app);
+const path = require('path');
 
 app.set('view engine', 'ejs');
 app.set('views', './views');
@@ -25,7 +26,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 
-app.use(express.static('public'));
+app.use(express.static(path.resolve(__dirname, "../reactapp/build")));
 app.use('/jquery', express.static('node_modules/jquery/dist')); //把node_modules的jquery檔案掛在/jquery路徑底下
 app.use('/bootstrap', express.static('node_modules/bootstrap/dist'));
 app.use(async(req,res,next)=>{

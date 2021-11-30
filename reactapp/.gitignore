@@ -25,15 +25,5 @@ yarn-error.log*
 yarn.lock
 package-lock.json
 
-# images
-public/images/articles
-public/images/bg
-public/images/course
-public/images/flags
-public/images/others
-public/images/students
-public/images/teacher
 
-public/images/.DS_Store
-public/video
 

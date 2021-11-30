@@ -1,13 +1,25 @@
 {
   "name": "demo",
   "version": "1.0.0",
+  "engines":{
+    "node": "14.17.x"
+  },
   "description": "test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js", 
-    "heroku-postbuild": "cd reactapp && npm install && npm run build"
+    "dev": "nodemon index.js",
+    "heroku-postbuild": "cd raectapp/ && npm install && npm run build"
+  
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "reactapp/node_modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://population-api-demo.herokuapp.com/"
   },
   "author": "samar",
   "license": "ISC",

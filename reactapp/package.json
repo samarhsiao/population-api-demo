@@ -1,6 +1,5 @@
 {
   "name": "population",
-  "homepage": "https://samarhsiao.github.io/population_demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

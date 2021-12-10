@@ -42,7 +42,11 @@ app.get('/',async(req,res)=>{
  const url = 'https://od.moi.gov.tw/api/v1/rest/datastore/301000000A-000082-041?fbclid=IwAR3F3293bGzIdvwvhRcPwreAWNGpIO1ClikWTFZ7j5mCRsFzXmpXT2ipG-Q';
 
 res.header("Content-Type", "text/html; charset=utf-8");
+
+console.log('begin:', new Date());
 const r = await axios.get(url);
+
+console.log('end:', new Date())
 const j = r.data.result.records;
 // console.log(typeof(j))
 // res.render('home',{data:j});

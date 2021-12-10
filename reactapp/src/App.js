@@ -27,11 +27,13 @@ function App() {
       },
     ],
   });
+  const [myData,setMyData]= useState([])
+  
   useEffect(()=>{
    (async () => {
      let rawdata = await axios.get(`${API_HOST}`)
-    //  console.log(rawdata.data)
     const tpeDistData = rawdata.data
+    setMyData(tpeDistData)
      let r = tpeDistData.filter((v) => {
        return v.site_id.slice(0, 3) === "臺北市";
     })
@@ -56,9 +58,8 @@ function App() {
  let fssum = 0;
  let mssum = 0;
  if(dist.value === e.target.value){
-        let rawData = await axios.get(`${API_HOST}`)
-        const allTpeDistData = rawData.data
-        const j = allTpeDistData.filter((v) => {
+        
+        const j = myData.filter((v) => {
         return v.site_id === e.target.value;
         })
       
